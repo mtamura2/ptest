@@ -1,10 +1,7 @@
 <?php
 class Sample
 {
-    /**
-     * @assert (1,1) == 2
-     */
-    public static function add($i1, $i2) {
-        return $i1 + $i2;
+    public static function add($n1, $n2) {
+        return $n1 + $n2;
     }
 }

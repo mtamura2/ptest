@@ -1,5 +1,17 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mtamura2/phpunit-skeleton-generator"
+        }
+    ],
     "require-dev": {
-        "phpunit/phpunit-skeleton-generator": "*@dev"
+        "phpunit/phpunit": "*",
+        "phpunit/phpunit-skeleton-generator": "dev-add_rand_sample"
+    },
+    "autoload-dev": {
+        "classmap": [
+            "Sample.php"
+        ]
     }
 }
