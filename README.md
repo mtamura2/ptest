@@ -38,9 +38,18 @@ Time: 33 ms, Memory: 4.00MB
 OK (3 tests, 3 assertions)
 ```
 
-## show test and modiry
+## show test and modify
 
 ```
 $ vim SampleTest.php
 ...
 ```
+
+## method arguments is hungarian notation
+
+- $sxxx ... string
+- $nxxx ... integer
+- $dxxx ... double
+- $bxxx ... boolean
+- $axxx ... array
+- $oxxx ... object
